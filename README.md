@@ -9,6 +9,7 @@ This first proof pass establishes:
 - a static case-study page in `index.html`
 - a focused product narrative in `docs/case-study.md`
 - explicit privacy and evidence boundaries in this README
+- a static verifier in `scripts/verify-static-site.ps1`
 - a Vercel-ready static configuration in `vercel.json`
 
 ## Publication Boundaries
@@ -35,6 +36,7 @@ Open `index.html` directly in a browser or run a local static server:
 
 ```powershell
 python -m http.server 4173
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\verify-static-site.ps1
 ```
 
 ## File Structure

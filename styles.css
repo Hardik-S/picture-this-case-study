@@ -186,6 +186,7 @@ button {
 }
 
 .band,
+.signals,
 .evidence {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(280px, 1.1fr);
@@ -202,6 +203,7 @@ h2 {
 }
 
 .band p,
+.signals p,
 .evidence p {
   color: var(--muted);
   font-size: 18px;
@@ -257,6 +259,36 @@ h2 {
   line-height: 1.55;
 }
 
+.signals {
+  background: #eef5f1;
+}
+
+.signals dl {
+  display: grid;
+  gap: 16px;
+  margin: 0;
+}
+
+.signals dl div {
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.signals dt {
+  margin-bottom: 8px;
+  color: var(--green);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.signals dd {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 .evidence ul {
   margin: 0;
   padding: 0;
@@ -278,6 +310,7 @@ h2 {
 
   .hero,
   .band,
+  .signals,
   .evidence {
     grid-template-columns: 1fr;
   }

@@ -26,3 +26,5 @@ The prototype emphasizes three product decisions:
 
 Future iterations should add wireframes, anonymized usability notes, and screenshots from a sanitized prototype. Any claims about adoption, revenue, or investor response should cite a public-safe artifact before appearing in the public repo.
 
+The current review signals are decision-time friction, reveal comprehension, and privacy boundary quality. These signals are intentionally modest: they support sanitized validation of the product loop without implying unsupported traction, private investor feedback, or access to raw participant data.
+
