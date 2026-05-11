@@ -28,3 +28,5 @@ Future iterations should add wireframes, anonymized usability notes, and screens
 
 The current review signals are decision-time friction, reveal comprehension, and privacy boundary quality. These signals are intentionally modest: they support sanitized validation of the product loop without implying unsupported traction, private investor feedback, or access to raw participant data.
 
+`docs/evidence-ledger.md` is the artifact-to-claim control surface. It records what is currently safe to cite, what is still missing, and which shortcuts were rejected because they would overstate the public evidence.
+

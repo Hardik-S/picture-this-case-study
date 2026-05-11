@@ -8,6 +8,7 @@ This first proof pass establishes:
 
 - a static case-study page in `index.html`
 - a focused product narrative in `docs/case-study.md`
+- an evidence ledger in `docs/evidence-ledger.md` that separates supported artifacts from traction claims
 - explicit privacy and evidence boundaries in this README
 - a static verifier in `scripts/verify-static-site.ps1`
 - a Vercel-ready static configuration in `vercel.json`
@@ -44,5 +45,6 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\verify-static-site.p
 - `index.html`: recruiter-facing static case-study page.
 - `styles.css`: visual system and responsive layout.
 - `docs/case-study.md`: decision rationale and rejected approaches.
+- `docs/evidence-ledger.md`: artifact status, publication decisions, and rejected proof shortcuts.
 - `vercel.json`: static deploy routing.
 
